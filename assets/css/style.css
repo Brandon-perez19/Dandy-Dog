@@ -13,11 +13,21 @@ header nav div a {
 
 .herostyle {
     background-image: url("../Images/puppy.jpeg");
+    background-size: cover;
 }
 
 .herostyle h1 {
     color: #F5CAC3;
     font-size: 60px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.daily-dog-content {
+    background-color: #F6BD60;
+}
+
+.daily-dog-content h1 {
+    font-size: 30px;
     font-family: 'Rock Salt', cursive;
 }
 
