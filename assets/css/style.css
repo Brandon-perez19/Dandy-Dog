@@ -10,3 +10,14 @@ header nav div {
 header nav div a {
     color: #F7EDE2;
 }
+
+.herostyle {
+    background-image: url("../Images/puppy.jpeg");
+}
+
+.herostyle h1 {
+    color: #F5CAC3;
+    font-size: 60px;
+    font-family: 'Rock Salt', cursive;
+}
+
