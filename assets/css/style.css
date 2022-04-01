@@ -1,0 +1,44 @@
+
+
+
+
+
+.navigation {
+    background-color: #84A59D;
+}
+
+header nav div a {
+    color: #F7EDE2;
+}
+
+.herostyle {
+    background-image: url("../Images/puppy.jpeg");
+    background-size: cover;
+}
+
+.herostyle h1 {
+    color: #F5CAC3;
+    font-size: 60px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.daily-dog-content {
+    background-color: #F6BD60;
+}
+
+.headings {
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.search {
+    background-color: #F5CAC3;
+}
+
+.favorites {
+    background-color: #F28482;
+}
+
+footer nav div a {
+    color: #F7EDE2;
+}
