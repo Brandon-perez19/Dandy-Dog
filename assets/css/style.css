@@ -1,16 +1,12 @@
 
 
 
-.logo {
-    color: #F7EDE2;
-    font-size: 40px;
-    
-}
 
-header div a {
-    color: #F7EDE2;
-}
 
-header div {
+header nav div {
     background-color: #84A59D;
+}
+
+header nav div a {
+    color: #F7EDE2;
 }
