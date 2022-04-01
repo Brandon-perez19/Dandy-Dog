@@ -1,12 +1,13 @@
 
 
 
-header {
-    background-color: #84A59D;
+.logo {
+    color: #F7EDE2;
+    font-size: 40px;
+    
 }
 
-header a {
-    text-decoration: none;
+header div a {
     color: #F7EDE2;
 }
 
