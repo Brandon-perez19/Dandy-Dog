@@ -3,7 +3,7 @@
 
 
 
-header nav div {
+.navigation {
     background-color: #84A59D;
 }
 
@@ -26,8 +26,19 @@ header nav div a {
     background-color: #F6BD60;
 }
 
-.daily-dog-content h1 {
+.headings {
     font-size: 30px;
     font-family: 'Rock Salt', cursive;
 }
 
+.search {
+    background-color: #F5CAC3;
+}
+
+.favorites {
+    background-color: #F28482;
+}
+
+footer nav div a {
+    color: #F7EDE2;
+}
