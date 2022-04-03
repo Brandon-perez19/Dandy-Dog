@@ -14,7 +14,7 @@
  Rosanna Rocha </br>
 
  ## Deployment Link
- Insert GitHub Pages link here </br>
+ https://brandon-perez19.github.io/Dandy-Dog/ </br>
 
  ## Preview 
  Insert img or gif here </br>
