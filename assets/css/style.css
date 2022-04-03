@@ -1,10 +1,8 @@
 
 
-
-
-
 .navigation {
     background-color: #84A59D;
+    display:flex
 }
 
 .logo {
@@ -48,4 +46,33 @@ header nav div a {
 
 footer nav div a {
     color: #F7EDE2;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-menu.is-active {
+        background-color: #84A59D;
+        display: flex;
+        box-shadow: none;
+    }
+    .navbar-start {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar-end {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .px-5 {
+        padding-left: 0!important;
+    }
+    .herostyle h1 {
+        font-size:x-large;
+    }
+    .hero-body {
+        padding: 5rem 1.5rem;
+    }
 }
