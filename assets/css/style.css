@@ -7,6 +7,13 @@
     background-color: #84A59D;
 }
 
+.logo {
+    background-image: url("../Images/Dandy\ Dog\ Logo.png");
+    background-size: cover;
+    width: 125px;
+    height: 125px;
+}
+
 header nav div a {
     color: #F7EDE2;
 }
@@ -22,7 +29,7 @@ header nav div a {
     font-family: 'Rock Salt', cursive;
 }
 
-.daily-dog-content {
+.daily-dog {
     background-color: #F6BD60;
 }
 

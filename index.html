@@ -15,11 +15,9 @@
 <body>
     <header>
         <nav class="navbar navigation">
-            <div class="navbar-brand" class="logo"> 
-                <a class="navbar-item" href="/">
-                    <figure class="image is-96x96">
-                        <img src="../dandy-dog/assets/Images/Dandy Dog Logo.png" alt="logo"/>
-                    </figure>
+            <div class="navbar-brand"> 
+                <a class="navbar-item logo" href="#">
+                    
                 </a>
             </div>
             <div class="navbar-menu is-active">
@@ -48,8 +46,8 @@
                 </h1>
             </div>
         </section>
-        <section class="daily-dog" id="daily-dog">
-            <div class="daily-dog-content">
+        <section class="daily-dog section daily-dog" id="daily-dog">
+            <div>
                 <h1 class="headings">Here's your Daily Dog</h1>
                 <figure class="image is-128x128">
                     <img class="is-rounded" src="assets/Images/holder_dog_img.jpeg" alt="smiling dog" />
@@ -58,11 +56,42 @@
             <div class="daily-dog-result">
             </div>
         </section>
-        <section id="search" class="search">
+        <section id="search" class="section search">
             <div class="search-content">
+                <h1 class="headings">Search Adoptable Dogs</h1>
                 <form> 
-                    <h1 class="headings">Search Adoptable Dogs</h1>
-                    <input type="text" name="dog-search" id="dog-input">
+                    <div class="field">
+                        <label class="label">  </label>
+                        <div class="control">
+                        <input class="input is-rounded" type="text" placeholder="Enter Dog Keyword or Name">
+                        </div>
+                    </div>
+                    <div class="select">
+                        <select>
+                          <option>Select Breed</option>
+                          <option>Can we</option>
+                          <option>dynamically</option>
+                          <option>generate</option>
+                          <option>these?</option>
+                        </select>
+                    </div>
+                    <div class="select">
+                        <select>
+                          <option>Select Color</option>
+                          <option>Can we</option>
+                          <option>dynamically</option>
+                          <option>generate</option>
+                          <option>these?</option>
+                        </select>
+                    </div>
+                    <div class="select">
+                        <select>
+                          <option>Select Gender</option>
+                          <option>Male</option>
+                          <option>Female</option>
+                          <option>No Preference???</option>
+                        </select>
+                    </div>
                 </form>
             </div>
             <div class="search-results">
