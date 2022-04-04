@@ -8,6 +8,7 @@
 .logo {
     background-image: url("../Images/Dandy\ Dog\ Logo_2.png");
     background-size: cover;
+    background-position:center;
     width: 125px;
     height: 125px;
 }
@@ -49,6 +50,17 @@ footer nav div a {
 }
 
 @media screen and (max-width: 1023px) {
+    .headings {
+        font-size: x-large;
+        padding-bottom: 20px;
+    }
+    .section{
+        padding: 2rem 1.5rem;
+    }
+    .select{
+        display: flex;
+        flex-direction: column;
+    }
     .navbar-menu.is-active {
         background-color: #84A59D;
         display: flex;
@@ -69,10 +81,28 @@ footer nav div a {
     .px-5 {
         padding-left: 0!important;
     }
-    .herostyle h1 {
+    .hero-text h1 {
         font-size:x-large;
     }
     .hero-body {
         padding: 5rem 1.5rem;
     }
+}
+
+@media screen and (max-width: 765px) {
+    .hero-body{
+        padding: 11rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .hero-body{
+        padding: 8rem 1.5rem;
+    }
+}
+@media screen and (max-width:375px) {
+    .hero-body{
+        padding: 7rem 1.5rem;
+    }
+    
 }
