@@ -20,6 +20,11 @@ header nav div a {
     color: #F7EDE2;
 }
 
+.navbar-item:hover {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 15px;
+}
+
 .herostyle {
     background-image: url("../Images/puppy.jpeg");
     background-size: cover;
