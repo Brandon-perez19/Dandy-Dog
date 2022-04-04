@@ -45,7 +45,7 @@ header nav div a {
 }
 
 .headings {
-    font-size: 30px;
+    font-size: 4vw;
     font-family: 'Rock Salt', cursive;
     padding-bottom: 20px;
 }
@@ -64,15 +64,12 @@ footer nav div a {
 @media screen and (min-width:1024px) {
     .navbar-start{
         align-items: stretch;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 1023px) {
-    .headings {
-        font-size: 5vw;
-    }
     .section{
         padding: 2rem 1.5rem;
     }
@@ -122,8 +119,8 @@ footer nav div a {
 }
 @media screen and (max-width:425px) {
     .navbar-item{
-        padding-right: 0;
-        padding-left: 0;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
     }
 }
 @media screen and (max-width:375px) {
