@@ -28,6 +28,10 @@ header nav div a {
     color: #F5CAC3;
     font-size: 60px;
     font-family: 'Rock Salt', cursive;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 0 20px;
 }
 
 .daily-dog {
