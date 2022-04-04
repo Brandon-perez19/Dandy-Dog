@@ -1,6 +1,7 @@
 .navigation {
     background-color: #84A59D;
-    display:flex
+    display:flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -55,7 +56,14 @@ header nav div a {
 footer nav div a {
     color: #F7EDE2;
 }
-
+@media screen and (min-width:1024px) {
+    .navbar-start{
+        align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    }
+}
 @media screen and (max-width: 1023px) {
     .headings {
         font-size: 5vw;
