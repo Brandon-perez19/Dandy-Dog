@@ -40,15 +40,9 @@ var displayPicture = function(message){
         //creates <img> element
         var imgCreate = document.createElement("img");
 
-        //sets imgCreate href value
+        //sets imgCreate src value and class name for styling
         imgCreate.setAttribute("src", message[i]);
-
-        //set imgCreate styles
-        imgCreate.style.borderRadius = "20%";
-        imgCreate.style.height = "200px";
-        imgCreate.style.width = "200px";
-        imgCreate.style.display = "inline";
-        imgCreate.style.border = "solid 6px #F7EDE2";
+        imgCreate.setAttribute("class", "dog-image");
 
         //create heading for dog breed image
         var dogHeading = document.createElement("h2");
@@ -57,7 +51,7 @@ var displayPicture = function(message){
         var breedText = message[i].split("/")[4];
         var breedArray= breedText.split("-");
 
-        // set dogHeading text content
+        // setting dogHeading text content
         if (breedArray[1]){
             var breedTitle1 = breedArray[1];
             var breedTitle2 = breedArray[0];
@@ -70,7 +64,6 @@ var displayPicture = function(message){
             var breedName = breedTitle.charAt(0).toUpperCase()+ breedTitle.slice(1);
             dogHeading.textContent = breedName
         };
-        //create dogHeading styles
 
         //append to imgHolder
         imgHolder.appendChild(dogHeading);

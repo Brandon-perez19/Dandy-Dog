@@ -61,6 +61,20 @@ header nav div a {
 footer nav div a {
     color: #F7EDE2;
 }
+
+.dog-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    display: inline;
+    border: solid 6px #F7EDE2
+}
+
+.dog-image:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
 @media screen and (min-width:1024px) {
     .navbar-start{
         align-items: stretch;
