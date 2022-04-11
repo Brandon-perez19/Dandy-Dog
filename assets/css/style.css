@@ -1,0 +1,130 @@
+.navigation {
+    background-color: #84A59D;
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background-image: url("../Images/Dandy\ Dog\ Logo_2.png");
+    background-size: cover;
+    background-position:center;
+    width: 125px;
+    height: 125px;
+}
+
+.navbar-item img {
+    max-height: 4rem;
+}
+
+header nav div a {
+    color: #F7EDE2;
+}
+
+.navbar-item:hover {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 15px;
+}
+
+.herostyle {
+    background-image: url("../Images/puppy.jpeg");
+    background-size: cover;
+}
+
+.herostyle h1 {
+    color: #F5CAC3;
+    font-size: 60px;
+    font-family: 'Rock Salt', cursive;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 0 20px;
+}
+
+.daily-dog {
+    background-color: #F6BD60;
+}
+
+.headings {
+    font-size: 4vw;
+    font-family: 'Rock Salt', cursive;
+    padding-bottom: 20px;
+}
+
+.search {
+    background-color: #F5CAC3;
+}
+
+.favorites {
+    background-color: #F28482;
+}
+
+footer nav div a {
+    color: #F7EDE2;
+}
+@media screen and (min-width:1024px) {
+    .navbar-start{
+        align-items: stretch;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .section{
+        padding: 2rem 1.5rem;
+    }
+    .select{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-menu.is-active {
+        background-color: #84A59D;
+        display: flex;
+        box-shadow: none;
+    }
+    .navbar-start {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-end {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .hero-text h1 {
+        font-size: 5vw;
+    }
+    .hero-body {
+        padding: 5rem 1.5rem;
+    }
+}
+@media screen and (max-width: 768px) {   
+    .hero-body{
+        padding: 11rem 1.5rem;
+    }
+}
+@media screen and (max-width: 726px) {
+    .navbar-item img {
+        max-height: 4rem;
+    }
+}
+@media screen and (max-width: 506px) {
+    .hero-body{
+        padding: 8rem 1.5rem;
+    }
+}
+@media screen and (max-width:425px) {
+    .navbar-item{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+@media screen and (max-width:375px) {
+    .hero-body{
+        padding: 7rem 1.5rem;
+    }
+}
