@@ -17,5 +17,5 @@
  https://brandon-perez19.github.io/Dandy-Dog/ </br>
 
  ## Preview 
- Insert img or gif here </br>
+ ![](assets/Images/application.png)
 
