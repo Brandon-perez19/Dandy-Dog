@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
     <header>
         <nav class="navbar navigation">
-            <div class="navbar-brand"> 
+            <div class="navbar-brand">
                 <a class="navbar-item logo" href="#">
                     <!-- Holder, the logo img is in the background -->
                 </a>
@@ -35,7 +37,7 @@
                 <div class="navbar-end">
                     <div class="navbar-item is-size-5 is-size-3-tablet">
                         <a href="https://github.com/Brandon-perez19">
-                            <img src="assets/Images/GitHubLogo_BP.png" alt="github logo with initials BP"/>
+                            <img src="assets/Images/GitHubLogo_BP.png" alt="github logo with initials BP" />
                         </a>
                     </div>
                 </div>
@@ -61,41 +63,21 @@
         </section>
         <section id="search" class="section search">
             <div class="search-content">
-                <h1 class="headings">Search Adoptable Dogs</h1>
-                <form> 
-                    <div class="field">
-                        <label class="label">  </label>
-                        <div class="control">
-                        <input class="input is-rounded" type="text" placeholder="Enter Dog Keyword or Name">
+                <h1 class="headings">Search For Dogs Here:</h1>
+                <section>
+                    <form class="breed box">
+                        <div class="field">
+                            <input type="text" class="input breed-description" placeholder="Search Breed Here...">
+                            <button id="breed-button" class="button is-primary is-small my-2" type="submit"> Look for Breed! </button>
                         </div>
-                    </div>
-                    <div class="select">
-                        <select>
-                            <option>Select Breed</option>
-                            <option>Can we</option>
-                            <option>dynamically</option>
-                            <option>generate</option>
-                            <option>these?</option>
-                        </select>
-                    </div>
-                    <div class="select">
-                        <select>
-                            <option>Select Color</option>
-                            <option>Can we</option>
-                            <option>dynamically</option>
-                            <option>generate</option>
-                            <option>these?</option>
-                            </select>
-                    </div>
-                    <div class="select">
-                        <select>
-                            <option>Select Gender</option>
-                            <option>Male</option>
-                            <option>Female</option>
-                            <option>No Preference???</option>
-                        </select>
-                    </div>
-                </form>
+                    </form>
+                    <form class="breed-status box">
+                        <div class="field">
+                        <input type="text" class="input" placeholder="(i.e: extinct, endager...)">
+                        <button class="button is-primary is-small my-2" type="submit" id="status-btn"> Search Status!</button>
+                        </div>
+                    </form> 
+                </section>
             </div>
             <div class="search-results">
             </div>
@@ -109,36 +91,23 @@
     </main>
     <footer>
         <nav class="navbar navigation">
-            <div class="navbar-brand footer-logo"> 
+            <div class="navbar-brand footer-logo">
                 <a class="navbar-item logo" href="#">
                     <!-- Holder, the logo img is in the background -->
                 </a>
             </div>
             <div class="navbar-start">
-                    <div class="navbar-item is-size-5">
-                        <a href="https://github.com/Brandon-perez19">Brandon's GitHub</a>
-                    </div>
-                    <div class="navbar-item is-size-5">
-                        <a href="https://github.com/RosannaRocha">Rosanna's GitHub</a>
-                    </div>
+                <div class="navbar-item is-size-5">
+                    <a href="https://github.com/Brandon-perez19">Brandon's GitHub</a>
+                </div>
+                <div class="navbar-item is-size-5">
+                    <a href="https://github.com/RosannaRocha">Rosanna's GitHub</a>
+                </div>
             </div>
-            <!-- <div class="navbar-menu is-active footer-links">
-                <
-                <!-- <div class="navbar-end">
-                    <div class="navbar-item is-size-5 px-5">
-                        <a href="#daily-dog">Daily Dog</a>
-                    </div>
-                    <div class="navbar-item is-size-5 px-5">
-                        <a href="#search">Search</a>
-                    </div>
-                    <div class="navbar-item is-size-5 px-5 mr-6">
-                        <a href="#favorites">Favorites</a>
-                    </div> -->
-                <!-- </div>
-            </div> --> 
         </nav>
     </footer>
     <script src="./assets/JS/script.js"></script>
-    <script src="./assets/JS/ApiMusic.js"></script>
+    <script src="./assets/JS/dogBreed.js"></script>
 </body>
+
 </html>

@@ -4,7 +4,8 @@
 var apiUrl = "https://dog.ceo/api/breeds/image/random/3"
 
 //make a request to URL
-fetch(apiUrl).then(function(response) {
+fetch(apiUrl)
+.then(function(response) {
     response.json().then(function(data) {
         console.log(data);
         displayPicture(data.message)
