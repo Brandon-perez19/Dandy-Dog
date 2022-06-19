@@ -54,9 +54,9 @@
                 </div>
             </div>
         </section>
-        <section class="daily-dog section daily-dog" id="daily-dog">
+        <section class="daily-dog section" id="daily-dog">
             <div class="daily-dog-content">
-                <h1 class="headings">Here are your Daily Dogs</h1>
+                <h1 class="headings"> Here are your Daily Dogs</h1>
             </div>
             <div class="daily-dog-result columns">
             </div>
@@ -68,24 +68,27 @@
                     <form class="breed box">
                         <div class="field">
                             <input type="text" class="input breed-description" placeholder="Search Breed Here...">
-                            <button id="breed-button" class="button is-primary is-small my-2" type="submit"> Look for Breed! </button>
+                            <button id="breed-button" class="button is-primary is-small my-2" type="submit"> 
+                                Look for Breed! 
+                            </button>
                         </div>
                     </form>
                     <form class="breed-status box">
                         <div class="field">
-                        <input type="text" class="input" placeholder="(i.e: extinct, endager...)">
-                        <button class="button is-primary is-small my-2" type="submit" id="status-btn"> Search Status!</button>
+                            <input type="text" class="input" placeholder="(i.e: extinct, endager...)">
+                            <button class="button is-primary is-small my-2" type="submit" id="status-btn">
+                                Search Status!
+                            </button>
                         </div>
-                    </form> 
+                    </form>
                 </section>
             </div>
             <div class="search-results">
             </div>
         </section>
-        <section id="favorites" class="favorites section">
-            <h1 class="headings">Your Saved Favorites</h1>
-            <p>
-                Holder Text
+        <section id="recent-searches" class="recent-searches section">
+            <h1 class="headings">Your Recent Searches</h1>
+            <p class="local-storage-results">
             </p>
         </section>
     </main>
@@ -100,14 +103,13 @@
                 <div class="navbar-item is-size-5">
                     <a href="https://github.com/Brandon-perez19">Brandon's GitHub</a>
                 </div>
-                <div class="navbar-item is-size-5">
-                    <a href="https://github.com/RosannaRocha">Rosanna's GitHub</a>
-                </div>
             </div>
         </nav>
     </footer>
     <script src="./assets/JS/script.js"></script>
     <script src="./assets/JS/dogBreed.js"></script>
+    <script src="./assets/JS/localStorage.js"></script>
+    <script src="./assets/JS/capitalizeSearch.js"></script>
 </body>
 
 </html>

@@ -45,7 +45,6 @@ header nav div a {
 }
 
 .headings {
-    font-size: 4vw;
     font-family: 'Rock Salt', cursive;
     padding-bottom: 20px;
 }
@@ -54,7 +53,7 @@ header nav div a {
     background-color: #F5CAC3;
 }
 
-.favorites {
+.recent-searches {
     background-color: #F28482;
 }
 
