@@ -11,7 +11,6 @@
 
  ## Developers
  Brandon Perez </br>
- Rosanna Rocha </br>
 
  ## Deployment Link
  https://brandon-perez19.github.io/Dandy-Dog/ </br>
